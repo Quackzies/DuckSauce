@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>
+
+
+
+
+<li class="@((ViewContext.RouteData.Values["Controller"].ToString() == "Home" && ViewContext.RouteData.Values["Action"].ToString() == "Index") ? "active" : "")">
+    @Html.ActionLink(@TempData["topmenu1"] != null ? TempData["topmenu1"].ToString() : "1", "Index", "home")
+</li>
+
+
+
+List<string>
+    arende = new List<string>
+        ();
+        List<listaAvArenden>
+            = new List<arende>
+                ();
+
+                foreach (var arende in listaAvArenden)
+                {
+                foreach (var string in arende)
+                {
+                }
+                Byt rad
+                }
+
+
